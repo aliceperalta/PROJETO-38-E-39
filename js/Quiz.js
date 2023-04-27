@@ -1,4 +1,4 @@
-class Quiz {
+class Quiz { //linha 48 e 50
   constructor(){}
 
   getState(){
