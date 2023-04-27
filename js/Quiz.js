@@ -44,10 +44,11 @@ class Quiz {
       for(var plr in allContestants){
         debugger;
         var correctAns = "2";
-        if (correctAns === allContestants[plr].answer)
-          fill("Green")
-        else
-          fill("red");
+        if (correctAns === allContestants[plr].answer){
+          fill("xxxxxx"); //preencha de verde
+        }else{
+          fill("xxxxxx"); //preencha de vermelho
+        }
 
         display_Answers+=30;
         textSize(20);
