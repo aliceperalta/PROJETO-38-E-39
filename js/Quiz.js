@@ -45,9 +45,9 @@ class Quiz { //linha 48 e 50
         debugger;
         var correctAns = "2";
         if (correctAns === allContestants[plr].answer){
-          fill("xxxxxx"); //preencha de verde
+          fill("green"); //preencha de verde
         }else{
-          fill("xxxxxx"); //preencha de vermelho
+          fill("red"); //preencha de vermelho
         }
 
         display_Answers+=30;
